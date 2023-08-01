@@ -11,6 +11,7 @@ router.get("/getTrain", async (req, resp) => {
   try {
     const response = await fetch(URL_Train);
     const data = await response.text();
+    console.log("mast");
     const json = prettify.CheckTrain(data);
     resp.json(json);
   } catch (e) {

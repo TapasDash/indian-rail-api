@@ -1,5 +1,4 @@
 let data2 = new String();
-
 class Prettify {
   BetweenStation(string) {
     try {
