@@ -14,3 +14,5 @@ app.use("/trains", gettrain);
 app.listen(PORT, () => {
   console.log(`Listening on ${PORT}`);
 });
+
+console.log("tasing")
